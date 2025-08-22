@@ -1,64 +1,42 @@
-# Core Dependencies
+# --- Core ---
 streamlit==1.28.0
 pydantic==2.5.3
+pydantic-settings==2.1.0
 openai==1.0.0
 python-dotenv==1.0.0
-pydantic-settings==2.1.0
 
-# Data processing
-numpy==1.24.4
+# --- Data ---
+numpy==1.26.4           # satisfy pandas 2.1.x (>=1.26,<2)
 pandas==2.1.4
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
+packaging==23.2
 
-# Vector databases and search
-faiss-cpu==1.7.4
+# --- Retrieval / NLP ---
+faiss-cpu==1.7.4        # works with Python 3.11 wheels
 sentence-transformers==2.2.2
 chromadb==0.4.24
 rank-bm25==0.2.2
 
-# PDF and document processing
+# --- PDF & docs ---
+PyMuPDF==1.23.8
 reportlab==4.0.7
 lxml==4.9.4
-PyMuPDF==1.23.8
 
-# Visualization
+# --- Visualization ---
 plotly==5.18.0
 Pillow==10.1.0
 
-# Streamlit extensions
+# --- Streamlit extras ---
 streamlit-extras==0.3.6
 st-pages==0.4.5
 streamlit-option-menu==0.3.13
 streamlit-tags==1.2.8
 
-# Web and parsing
-beautifulsoup4==4.12.2
+# --- Web / parsing ---
 requests==2.31.0
+beautifulsoup4==4.12.2
 html5lib==1.1
 
-# Additional utilities
+# --- Utils ---
 tqdm==4.66.1
-packaging==23.2
 python-multipart==0.0.6
-
-# Testing & Development (optional for deployment)
-pytest==7.4.3
-pytest-cov==4.1.0
-mkdocs>=1.5.0,<2.0.0
-mkdocs-material>=9.4.0,<10.0.0
-
-# Core Dependencies
-streamlit==1.28.0
-pydantic==2.5.3
-python-dotenv==1.0.0
-
-# Minimal data processing
-numpy==1.24.4
-pandas==2.1.4
-
-# Minimal PDF processing
-PyMuPDF==1.23.8
-
-# Minimal web and parsing
-requests==2.31.0
-

@@ -1,0 +1,173 @@
+{
+  "executive_summary": "Somnath Kshirsagar is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) diagnosed in 2021. His current HbA1c is 8.2%, indicating a need for improved glycemic control, alongside monitoring for cardiovascular risk factors due to elevated LDL levels.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Green",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Manage LDL levels"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None reported",
+    "devices": [],
+    "complications": "History of DKA and hypoglycemia",
+    "recent_events": "2 episodes of severe hypoglycemia in the last 90 days"
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.2,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target, requires intervention"
+    },
+    {
+      "test": "FPG",
+      "value": 5.7,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "PPG 2h",
+      "value": 8.6,
+      "target": null,
+      "status": "Elevated",
+      "comment": "Requires monitoring"
+    },
+    {
+      "test": "eGFR",
+      "value": 90,
+      "target": 60,
+      "status": "Normal",
+      "comment": "Kidney function is normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 80,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "ACR",
+      "value": 2.0,
+      "target": 3.0,
+      "status": "Normal",
+      "comment": "No albuminuria"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 5.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "LDL",
+      "value": 2.5,
+      "target": 2.0,
+      "status": "Amber",
+      "comment": "Above target, consider intervention"
+    },
+    {
+      "test": "HDL",
+      "value": 2.2,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "Triglycerides",
+      "value": 1.7,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Elevated HbA1c",
+      "assessment": "Current HbA1c of 8.2% indicates poor glycemic control.",
+      "plan": "Implement strategies to lower HbA1c to target levels.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL",
+      "assessment": "LDL level of 2.5 is above the recommended target.",
+      "plan": "Consider lifestyle modifications and potential pharmacotherapy to manage LDL levels.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Limit alcohol intake to no more than 14 units per week.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Follow a Mediterranean diet rich in whole grains, fruits, vegetables, lean proteins, and healthy fats.",
+    "sample_meals": [
+      "Grilled chicken salad with olive oil dressing",
+      "Quinoa with roasted vegetables",
+      "Greek yogurt with berries"
+    ],
+    "portion_guidance": "Aim for balanced portions, focusing on whole foods and minimizing processed foods.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels between 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia, especially after exercise.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal function",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c of less than 7.0% within the next 6 months.",
+    "Reduce LDL levels to below 2.0 mmol/L within the next 6 months.",
+    "Increase physical activity to 150 minutes per week within 3 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting a statin for LDL management.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "3 months",
+      "actions": "Reassess HbA1c, LDL levels, and overall diabetes management."
+    }
+  ],
+  "emr_note": "Patient with T1DM presents with elevated HbA1c (8.2%) and LDL (2.5). Lifestyle modifications and potential medication adjustments recommended. Follow-up in 3 months.",
+  "citations": []
+}

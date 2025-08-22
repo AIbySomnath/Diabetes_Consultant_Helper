@@ -1,0 +1,201 @@
+{
+  "executive_summary": "Somanth is a 43-year-old male with Type 1 Diabetes Mellitus, currently exhibiting an HbA1c of 8.3%, indicating suboptimal glycemic control. His blood pressure is within target range, but he is classified as overweight with a BMI of 28.4, necessitating lifestyle modifications and potential medication adjustments.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Amber",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Implement lifestyle changes",
+      "Consider medication for glycemic control"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None",
+    "devices": [],
+    "complications": [],
+    "recent_events": "No recent episodes of hypoglycemia or diabetic ketoacidosis."
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.3,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target for Type 1 Diabetes."
+    },
+    {
+      "test": "Fasting Plasma Glucose",
+      "value": 6.4,
+      "target": null,
+      "status": null,
+      "comment": "Normal range."
+    },
+    {
+      "test": "Postprandial Glucose (2h)",
+      "value": 8.6,
+      "target": null,
+      "status": null,
+      "comment": "Elevated."
+    },
+    {
+      "test": "eGFR",
+      "value": 102,
+      "target": 60,
+      "status": "Green",
+      "comment": "Normal renal function."
+    },
+    {
+      "test": "Creatinine",
+      "value": 85,
+      "target": null,
+      "status": null,
+      "comment": "Normal."
+    },
+    {
+      "test": "ACR",
+      "value": 2.9,
+      "target": 3.0,
+      "status": "Green",
+      "comment": "Normal albuminuria."
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 6.5,
+      "target": null,
+      "status": "Amber",
+      "comment": "Above target."
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": 3.5,
+      "target": 2.0,
+      "status": "Red",
+      "comment": "High risk."
+    },
+    {
+      "test": "HDL Cholesterol",
+      "value": 2.1,
+      "target": null,
+      "status": null,
+      "comment": "Normal."
+    },
+    {
+      "test": "Triglycerides",
+      "value": 2.2,
+      "target": null,
+      "status": null,
+      "comment": "Elevated."
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Suboptimal glycemic control (HbA1c 8.3%)",
+      "assessment": "Current HbA1c is above the target for Type 1 Diabetes.",
+      "plan": "Implement lifestyle changes and consider starting insulin therapy.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Overweight (BMI 28.4)",
+      "assessment": "BMI indicates overweight status, which increases cardiovascular risk.",
+      "plan": "Encourage weight loss through dietary changes and increased physical activity.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL cholesterol (3.5 mmol/L)",
+      "assessment": "LDL is above the target for high-risk individuals.",
+      "plan": "Consider statin therapy and dietary modifications to lower cholesterol.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Reduce alcohol intake to no more than 14 units per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Quit smoking to improve overall health and reduce cardiovascular risk.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on a balanced diet rich in whole grains, fruits, vegetables, and lean proteins while reducing saturated fats and sugars.",
+    "sample_meals": [
+      "Grilled chicken salad with mixed greens and vinaigrette.",
+      "Oatmeal with berries and a sprinkle of nuts.",
+      "Baked fish with steamed broccoli and quinoa."
+    ],
+    "portion_guidance": "Use the plate method: half the plate for vegetables, a quarter for protein, and a quarter for whole grains.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels between 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia and adjust insulin as needed.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal Screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot Examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal Function",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Flu Vaccination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Pneumococcal Vaccination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within 6 months.",
+    "Reduce weight by 5% in the next 3 months.",
+    "Lower LDL cholesterol to < 2.0 mmol/L within 6 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "text": "Consider statin therapy for elevated LDL cholesterol.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, weight, and lipid levels."
+    }
+  ],
+  "emr_note": "Patient Somanth, a 43-year-old male with T1DM, presents with an HbA1c of 8.3%, BMI of 28.4, and elevated LDL cholesterol. Lifestyle modifications and potential medication adjustments are recommended.",
+  "citations": []
+}

@@ -1,0 +1,151 @@
+{
+  "executive_summary": "The patient is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) presenting with an HbA1c of 7.5%, which is above the target of 7.0%. Blood pressure is within normal limits, but lifestyle modifications are needed to improve overall health and diabetes management.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Green",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Implement lifestyle changes to improve HbA1c",
+      "Consider medication options for better glycemic control"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None",
+    "devices": [],
+    "complications": [],
+    "recent_events": "No recent episodes of hypoglycemia or DKA"
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 7.5,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target for T1DM"
+    },
+    {
+      "test": "Fasting Plasma Glucose",
+      "value": 5.5,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "Postprandial Glucose (2h)",
+      "value": 8.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "eGFR",
+      "value": 90,
+      "target": 60,
+      "status": "Normal",
+      "comment": "Kidney function is normal"
+    },
+    {
+      "test": "Creatinine",
+      "value": 80,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal renal function"
+    },
+    {
+      "test": "ACR",
+      "value": 2.0,
+      "target": 3.0,
+      "status": "Normal",
+      "comment": "No albuminuria"
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 5.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Cholesterol levels are acceptable"
+    },
+    {
+      "test": "LDL",
+      "value": 2.5,
+      "target": 2.0,
+      "status": "Amber",
+      "comment": "Above target for high-risk individuals"
+    },
+    {
+      "test": "HDL",
+      "value": 1.2,
+      "target": null,
+      "status": "Normal",
+      "comment": "Good HDL levels"
+    },
+    {
+      "test": "Triglycerides",
+      "value": 1.5,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal triglyceride levels"
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Elevated HbA1c",
+      "assessment": "Current HbA1c is 7.5%, indicating suboptimal glycemic control.",
+      "plan": "Implement lifestyle changes and consider medication to improve glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL",
+      "assessment": "LDL level is 2.5, above the recommended target for high-risk individuals.",
+      "plan": "Recommend dietary changes to lower LDL levels.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on a low glycemic index diet, limit processed sugars and saturated fats.",
+    "sample_meals": [
+      "Grilled chicken salad with mixed greens and vinaigrette",
+      "Oatmeal with berries and nuts",
+      "Quinoa with steamed vegetables"
+    ],
+    "portion_guidance": "Use portion control to manage carbohydrate intake.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels of 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia.",
+    "citation_ids": []
+  },
+  "screening_tracker": [],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within the next 3 months.",
+    "Reduce LDL to < 2.0 mmol/L in 6 months.",
+    "Increase physical activity to moderate levels within 1 month."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "3 months",
+      "actions": "Reassess HbA1c and LDL levels, adjust treatment as necessary."
+    }
+  ],
+  "emr_note": "Patient with T1DM presents with HbA1c of 7.5%. Lifestyle modifications recommended, and consideration for insulin therapy discussed.",
+  "citations": []
+}

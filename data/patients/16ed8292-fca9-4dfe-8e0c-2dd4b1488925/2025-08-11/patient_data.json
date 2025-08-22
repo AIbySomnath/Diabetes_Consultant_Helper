@@ -1,0 +1,47 @@
+{
+  "uuid": "16ed8292-fca9-4dfe-8e0c-2dd4b1488925",
+  "name": "Somnath Kshirsagar",
+  "dob": "1980-01-01",
+  "sex": "Male",
+  "diabetes_type": "T1DM",
+  "diagnosis_date": "2021",
+  "ethnicity": "indian",
+  "language": null,
+  "height_cm": 175.0,
+  "weight_kg": 81.5,
+  "waist_cm": 85.0,
+  "bp_sys": 120.0,
+  "bp_dia": 80.0,
+  "heart_rate": 72.0,
+  "devices": [],
+  "hypos_90d": 2,
+  "severe_hypos_90d": 2,
+  "dka_12m": 2,
+  "meds": [],
+  "allergies": null,
+  "comorbidities": [],
+  "lifestyle": {
+    "alcohol_units": 4,
+    "smoking": "Former",
+    "sleep_hours": 7,
+    "activity_level": "Moderate",
+    "diet_pattern": "Vegetarian"
+  },
+  "screenings": {},
+  "labs": {
+    "hba1c_pct": 7.9,
+    "fpg_mmol": 5.5,
+    "ppg2h_mmol": 8.6,
+    "egfr": 95,
+    "creatinine_umol": 86,
+    "acr_mgmmol": 2.4000000000000004,
+    "lipids": {
+      "tc": 6.5,
+      "ldl": 3.1,
+      "hdl": 1.6,
+      "tg": 2.1
+    }
+  },
+  "goals": null,
+  "notes": null
+}

@@ -1,0 +1,164 @@
+{
+  "executive_summary": "Somnath Kshirsagar is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) diagnosed in 2022. His current HbA1c is 8.3%, indicating a need for improved glycemic control, alongside monitoring of cardiovascular risk factors.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Amber",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Manage lipid levels",
+      "Monitor for complications"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None reported",
+    "devices": [],
+    "complications": [
+      "DKA in the last 12 months"
+    ],
+    "recent_events": [
+      "1 hypoglycemic event in the last 90 days"
+    ]
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.3,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target, requires intervention"
+    },
+    {
+      "test": "Blood Pressure",
+      "value": "127/83",
+      "target": "135/85",
+      "status": "Green",
+      "comment": "Within target range"
+    },
+    {
+      "test": "BMI",
+      "value": 26.1,
+      "target": 25.0,
+      "status": "Amber",
+      "comment": "Overweight, lifestyle modification recommended"
+    },
+    {
+      "test": "LDL",
+      "value": 3.2,
+      "target": 2.0,
+      "status": "Amber",
+      "comment": "Above target, consider lipid-lowering therapy"
+    },
+    {
+      "test": "eGFR",
+      "value": 94,
+      "target": 60,
+      "status": "Green",
+      "comment": "Kidney function is normal"
+    },
+    {
+      "test": "ACR",
+      "value": 2.8,
+      "target": 3.0,
+      "status": "Green",
+      "comment": "Normal albumin excretion"
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Poor glycemic control (HbA1c 8.3%)",
+      "assessment": "Current HbA1c is above the target for T1DM, indicating a need for medication adjustment and lifestyle changes.",
+      "plan": "Consider starting insulin therapy or adjusting current regimen.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Lipid management (LDL 3.2)",
+      "assessment": "LDL levels are above the recommended target, increasing cardiovascular risk.",
+      "plan": "Discuss dietary changes and consider statin therapy.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Weight management (BMI 26.1)",
+      "assessment": "Patient is overweight, which may contribute to insulin resistance.",
+      "plan": "Implement lifestyle interventions focused on weight loss.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on low glycemic index foods, reduce saturated fats, and limit sugar intake.",
+    "sample_meals": [
+      "Grilled chicken salad with a variety of vegetables",
+      "Quinoa with mixed vegetables and a source of protein",
+      "Oatmeal topped with berries and nuts"
+    ],
+    "portion_guidance": "Use portion control to manage calorie intake, aiming for smaller, more frequent meals.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels of 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia and ketones.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal screening",
+      "last_date": null,
+      "result": "Not performed",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot examination",
+      "last_date": null,
+      "result": "Not performed",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal function screening",
+      "last_date": null,
+      "result": "Not performed",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within 3 months",
+    "Reduce LDL to < 2.0 mmol/L within 6 months",
+    "Achieve a BMI < 25.0 within 12 months"
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "text": "Discuss the initiation of statin therapy for LDL management.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, lipid levels, and weight."
+    },
+    {
+      "when": "In 1 month",
+      "actions": "Review lifestyle changes and medication adherence."
+    }
+  ],
+  "emr_note": "Patient with T1DM presents with elevated HbA1c at 8.3%. Initiate discussion on insulin therapy and lifestyle modifications. Monitor lipid levels and weight.",
+  "citations": []
+}

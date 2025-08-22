@@ -1,0 +1,149 @@
+{
+  "executive_summary": "The patient is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) presenting with an HbA1c of 8.6%, indicating suboptimal glycemic control. Key priorities include improving glycemic management and addressing lifestyle factors to reduce cardiovascular risk.",
+  "snapshot": {
+    "hba1c_status": "High",
+    "bp_status": "Normal",
+    "bmi_status": "Normal",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Implement lifestyle modifications"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None",
+    "devices": [],
+    "complications": [],
+    "recent_events": []
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.6,
+      "target": 6.5,
+      "status": "High",
+      "comment": "Above target for T1DM"
+    },
+    {
+      "test": "Blood Pressure",
+      "value": "120/80",
+      "target": "135/85",
+      "status": "Normal",
+      "comment": "Within target range"
+    },
+    {
+      "test": "BMI",
+      "value": 22.9,
+      "target": 25.0,
+      "status": "Normal",
+      "comment": "Within normal range"
+    },
+    {
+      "test": "LDL",
+      "value": 2.5,
+      "target": 2.0,
+      "status": "High",
+      "comment": "Above target for high CV risk"
+    },
+    {
+      "test": "eGFR",
+      "value": 90,
+      "target": 90,
+      "status": "Normal",
+      "comment": "At target"
+    },
+    {
+      "test": "ACR",
+      "value": 2.0,
+      "target": 3.0,
+      "status": "Normal",
+      "comment": "Within normal range"
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Suboptimal glycemic control (HbA1c 8.6%)",
+      "assessment": "Current HbA1c is above the target for T1DM, indicating a need for improved management.",
+      "plan": "Initiate insulin therapy and consider referral to a diabetes education program.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL cholesterol (2.5 mmol/L)",
+      "assessment": "LDL is above the target for high cardiovascular risk.",
+      "plan": "Implement dietary changes and consider statin therapy.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on low glycemic index foods, limit saturated fats and sugars.",
+    "sample_meals": [
+      "Grilled chicken salad",
+      "Oatmeal with berries",
+      "Vegetable stir-fry with tofu"
+    ],
+    "portion_guidance": "Use portion control to manage carbohydrate intake.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels of 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal screening",
+      "last_date": null,
+      "result": "Not done",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot examination",
+      "last_date": null,
+      "result": "Not done",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal function",
+      "last_date": null,
+      "result": "Not done",
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c <7.0% within 6 months",
+    "Lower LDL to <2.0 mmol/L within 12 months",
+    "Increase physical activity to 150 minutes per week within 3 months"
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    },
+    {
+      "text": "Consider statin therapy for elevated LDL cholesterol.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c and lipid levels, review lifestyle changes."
+    }
+  ],
+  "emr_note": "Patient with T1DM, HbA1c 8.6%, LDL 2.5 mmol/L. Initiate insulin therapy and lifestyle modifications. Follow-up in 3 months.",
+  "citations": []
+}

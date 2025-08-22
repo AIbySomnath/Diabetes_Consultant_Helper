@@ -1,0 +1,47 @@
+{
+  "uuid": "82c197fc-463f-44b3-afd5-197ea8b30ae5",
+  "name": "somanth",
+  "dob": "1980-01-01",
+  "sex": "Male",
+  "diabetes_type": "T1DM",
+  "diagnosis_date": null,
+  "ethnicity": null,
+  "language": null,
+  "height_cm": 175.0,
+  "weight_kg": 70.0,
+  "waist_cm": 85.0,
+  "bp_sys": 120.0,
+  "bp_dia": 80.0,
+  "heart_rate": 72.0,
+  "devices": [],
+  "hypos_90d": 1,
+  "severe_hypos_90d": 1,
+  "dka_12m": 2,
+  "meds": [],
+  "allergies": null,
+  "comorbidities": [],
+  "lifestyle": {
+    "alcohol_units": 2,
+    "smoking": "Former",
+    "sleep_hours": 5,
+    "activity_level": "Light",
+    "diet_pattern": "Low Carb"
+  },
+  "screenings": {},
+  "labs": {
+    "hba1c_pct": 8.1,
+    "fpg_mmol": 5.7,
+    "ppg2h_mmol": 8.3,
+    "egfr": 93,
+    "creatinine_umol": 83,
+    "acr_mgmmol": 2.4000000000000004,
+    "lipids": {
+      "tc": 5.4,
+      "ldl": 3.1,
+      "hdl": 1.2,
+      "tg": 2.2
+    }
+  },
+  "goals": null,
+  "notes": null
+}

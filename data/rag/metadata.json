@@ -1,0 +1,32 @@
+[
+  {
+    "id": "nice_ng17_hba1c_chunk_0",
+    "source": "NICE NG17",
+    "section": "Blood glucose management"
+  },
+  {
+    "id": "nice_ng28_bp_chunk_0",
+    "source": "NICE NG28",
+    "section": "Blood pressure management"
+  },
+  {
+    "id": "nice_ng28_lipids_chunk_0",
+    "source": "NICE NG28",
+    "section": "Lipid management"
+  },
+  {
+    "id": "bda_carb_counting_chunk_0",
+    "source": "BDA Guidelines",
+    "section": "Carbohydrate counting"
+  },
+  {
+    "id": "nice_ng17_hypo_chunk_0",
+    "source": "NICE NG17",
+    "section": "Hypoglycaemia management"
+  },
+  {
+    "id": "nice_screening_chunk_0",
+    "source": "NICE Diabetes Screening",
+    "section": "Annual screening"
+  }
+]

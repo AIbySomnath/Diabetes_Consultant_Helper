@@ -1,0 +1,174 @@
+{
+  "executive_summary": "Sanket Gaikwad is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) diagnosed in 2022. His current HbA1c is 8.4%, indicating a need for improved glycemic control, and he has elevated LDL levels, necessitating lifestyle modifications and potential medication adjustments.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Overweight",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Address dyslipidemia",
+      "Monitor for complications"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None reported",
+    "devices": "None",
+    "complications": "None reported",
+    "recent_events": "Two severe hypoglycemic episodes in the last 90 days"
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.4,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target, indicating poor glycemic control."
+    },
+    {
+      "test": "FPG",
+      "value": 6.8,
+      "target": null,
+      "status": "Normal",
+      "comment": "Fasting plasma glucose is within normal range."
+    },
+    {
+      "test": "PPG 2h",
+      "value": 8.6,
+      "target": null,
+      "status": "High",
+      "comment": "Postprandial glucose is elevated."
+    },
+    {
+      "test": "eGFR",
+      "value": 93,
+      "target": 60,
+      "status": "Normal",
+      "comment": "Kidney function is normal."
+    },
+    {
+      "test": "Creatinine",
+      "value": 90,
+      "target": null,
+      "status": "Normal",
+      "comment": "Creatinine levels are within normal range."
+    },
+    {
+      "test": "ACR",
+      "value": 2.4,
+      "target": 3.0,
+      "status": "Normal",
+      "comment": "Albumin-to-creatinine ratio is normal."
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 6.1,
+      "target": null,
+      "status": "High",
+      "comment": "Total cholesterol is elevated."
+    },
+    {
+      "test": "LDL",
+      "value": 3.2,
+      "target": 2.0,
+      "status": "High",
+      "comment": "LDL cholesterol is above target."
+    },
+    {
+      "test": "HDL",
+      "value": 1.7,
+      "target": null,
+      "status": "Normal",
+      "comment": "HDL cholesterol is within normal range."
+    },
+    {
+      "test": "Triglycerides",
+      "value": 2.1,
+      "target": null,
+      "status": "High",
+      "comment": "Triglycerides are elevated."
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Poor glycemic control (HbA1c 8.4%)",
+      "assessment": "Current HbA1c is above the target for T1DM, indicating a need for better diabetes management.",
+      "plan": "Consider insulin regimen adjustments and patient education on carbohydrate counting.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Dyslipidemia (elevated LDL and triglycerides)",
+      "assessment": "LDL and triglycerides are above recommended targets, increasing cardiovascular risk.",
+      "plan": "Implement dietary changes and consider statin therapy.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Limit alcohol intake to no more than 14 units per week.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on a balanced diet rich in whole grains, lean proteins, fruits, and vegetables while reducing saturated fats and sugars.",
+    "sample_meals": [
+      "Grilled chicken salad with mixed greens and vinaigrette",
+      "Oatmeal topped with berries and a sprinkle of nuts",
+      "Baked salmon with quinoa and steamed broccoli"
+    ],
+    "portion_guidance": "Use portion control methods such as measuring cups or a food scale to manage carbohydrate intake.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels between 4-7 mmol/L and post-meal levels below 8.5 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia and maintain a log of blood glucose readings.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal function check",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within the next 6 months.",
+    "Reduce LDL cholesterol to < 2.0 mmol/L within the next 6 months.",
+    "Increase physical activity to moderate levels within 3 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting a statin for dyslipidemia management.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, lipid profile, and review lifestyle changes."
+    }
+  ],
+  "emr_note": "Patient with T1DM, HbA1c 8.4%, elevated LDL and triglycerides. Recommended lifestyle modifications and consider statin therapy. Follow-up in 3 months.",
+  "citations": []
+}

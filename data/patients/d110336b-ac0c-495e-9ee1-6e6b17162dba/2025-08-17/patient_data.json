@@ -1,0 +1,47 @@
+{
+  "uuid": "d110336b-ac0c-495e-9ee1-6e6b17162dba",
+  "name": "Sanket Gaikwad",
+  "dob": "1980-01-01",
+  "sex": "Male",
+  "diabetes_type": "T1DM",
+  "diagnosis_date": "2022",
+  "ethnicity": "UK",
+  "language": null,
+  "height_cm": 175.0,
+  "weight_kg": 80.0,
+  "waist_cm": 85.0,
+  "bp_sys": 135.0,
+  "bp_dia": 94.0,
+  "heart_rate": 82.0,
+  "devices": [],
+  "hypos_90d": 0,
+  "severe_hypos_90d": 2,
+  "dka_12m": 0,
+  "meds": [],
+  "allergies": null,
+  "comorbidities": [],
+  "lifestyle": {
+    "alcohol_units": 2,
+    "smoking": "Former",
+    "sleep_hours": 8,
+    "activity_level": "Light",
+    "diet_pattern": "Standard"
+  },
+  "screenings": {},
+  "labs": {
+    "hba1c_pct": 8.4,
+    "fpg_mmol": 6.8,
+    "ppg2h_mmol": 8.6,
+    "egfr": 93,
+    "creatinine_umol": 90,
+    "acr_mgmmol": 2.4000000000000004,
+    "lipids": {
+      "tc": 6.1,
+      "ldl": 3.2,
+      "hdl": 1.7,
+      "tg": 2.1
+    }
+  },
+  "goals": null,
+  "notes": null
+}

@@ -1,0 +1,184 @@
+{
+  "executive_summary": "Somnath Kshirsagar is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) diagnosed in 2021. His current HbA1c is 8.3%, which is above the target, indicating a need for improved glycemic control and lifestyle modifications.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Amber",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Address lipid levels",
+      "Encourage weight management"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None reported",
+    "devices": [],
+    "complications": [],
+    "recent_events": "No recent severe hypoglycemic events or DKA reported."
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.3,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target, indicating poor glycemic control."
+    },
+    {
+      "test": "FPG",
+      "value": 5.5,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal fasting plasma glucose."
+    },
+    {
+      "test": "PPG 2h",
+      "value": 8.0,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal postprandial glucose."
+    },
+    {
+      "test": "eGFR",
+      "value": 99,
+      "target": 60,
+      "status": "Normal",
+      "comment": "Kidney function is normal."
+    },
+    {
+      "test": "Creatinine",
+      "value": 90,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal creatinine level."
+    },
+    {
+      "test": "ACR",
+      "value": 3.4,
+      "target": 3.0,
+      "status": "Amber",
+      "comment": "Slightly elevated, indicating possible albuminuria."
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 6.7,
+      "target": null,
+      "status": "Amber",
+      "comment": "Elevated total cholesterol."
+    },
+    {
+      "test": "LDL",
+      "value": 4.4,
+      "target": 2.0,
+      "status": "Red",
+      "comment": "High LDL cholesterol, requiring intervention."
+    },
+    {
+      "test": "HDL",
+      "value": 2.3,
+      "target": null,
+      "status": "Normal",
+      "comment": "Normal HDL cholesterol."
+    },
+    {
+      "test": "Triglycerides",
+      "value": 2.0,
+      "target": null,
+      "status": "Amber",
+      "comment": "Elevated triglycerides."
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Poor glycemic control (HbA1c 8.3%)",
+      "assessment": "Current HbA1c is above the target for T1DM.",
+      "plan": "Consider medication adjustments and lifestyle interventions.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL cholesterol (4.4 mmol/L)",
+      "assessment": "Significantly above the target, indicating high cardiovascular risk.",
+      "plan": "Initiate statin therapy and dietary modifications.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Mild albuminuria (ACR 3.4 mg/mmol)",
+      "assessment": "Suggests early kidney damage.",
+      "plan": "Monitor renal function and consider ACE inhibitor therapy.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Limit alcohol intake to no more than 14 units per week.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Adopt a balanced diet rich in whole grains, fruits, vegetables, and lean proteins while reducing saturated fats and sugars.",
+    "sample_meals": [
+      "Breakfast: Oatmeal with berries and a small handful of nuts.",
+      "Lunch: Grilled chicken salad with a variety of vegetables and olive oil dressing.",
+      "Dinner: Baked fish with quinoa and steamed broccoli."
+    ],
+    "portion_guidance": "Use the plate method: half of the plate for vegetables, a quarter for protein, and a quarter for carbohydrates.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels of 4-7 mmol/L and post-meal levels below 8.5 mmol/L.",
+    "testing_frequency": "Test blood glucose at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia and ketones.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal function",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within 6 months.",
+    "Reduce LDL cholesterol to < 2.0 mmol/L within 3 months.",
+    "Engage in at least 150 minutes of physical activity weekly."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting a statin for LDL management.",
+      "citation_ids": []
+    },
+    {
+      "text": "Consider starting an ACE inhibitor for renal protection.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "3 months",
+      "actions": "Reassess HbA1c, lipid profile, and renal function."
+    }
+  ],
+  "emr_note": "Patient with T1DM presents with HbA1c of 8.3%, elevated LDL, and mild albuminuria. Lifestyle modifications and medication adjustments recommended.",
+  "citations": []
+}

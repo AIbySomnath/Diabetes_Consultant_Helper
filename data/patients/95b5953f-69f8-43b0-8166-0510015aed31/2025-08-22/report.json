@@ -1,0 +1,151 @@
+{
+  "executive_summary": "Sanket Gaikwad is a 43-year-old male with Type 1 Diabetes Mellitus diagnosed in 2022. His current HbA1c is 7.5%, which is above the target, indicating a need for improved glycemic control and lifestyle modifications.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Amber",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve glycemic control",
+      "Address weight management"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None",
+    "devices": [],
+    "complications": [],
+    "recent_events": "No recent episodes of hypoglycemia or DKA."
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 7.5,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target; requires intervention."
+    },
+    {
+      "test": "Blood Pressure",
+      "value": "120/80",
+      "target": "135/85",
+      "status": "Green",
+      "comment": "Well controlled."
+    },
+    {
+      "test": "BMI",
+      "value": 26.1,
+      "target": 25.0,
+      "status": "Amber",
+      "comment": "Overweight; lifestyle changes recommended."
+    },
+    {
+      "test": "LDL Cholesterol",
+      "value": 2.5,
+      "target": 2.0,
+      "status": "Amber",
+      "comment": "Above target; consider dietary changes."
+    },
+    {
+      "test": "eGFR",
+      "value": 90,
+      "target": 60,
+      "status": "Green",
+      "comment": "Normal kidney function."
+    },
+    {
+      "test": "ACR",
+      "value": 2.0,
+      "target": 3.0,
+      "status": "Green",
+      "comment": "Normal albumin levels."
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Elevated HbA1c",
+      "assessment": "Current HbA1c of 7.5% indicates suboptimal glycemic control.",
+      "plan": "Implement lifestyle modifications and consider medication for better control.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Overweight",
+      "assessment": "BMI of 26.1 indicates overweight status.",
+      "plan": "Encourage weight loss through dietary changes and increased physical activity.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL",
+      "assessment": "LDL level of 2.5 is above the recommended target.",
+      "plan": "Advise dietary modifications to lower LDL cholesterol.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for a balanced diet rich in fruits, vegetables, whole grains, and lean proteins.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on low glycemic index foods, control portion sizes, and limit saturated fats.",
+    "sample_meals": [
+      "Grilled chicken salad with mixed greens",
+      "Oatmeal with berries",
+      "Quinoa and vegetable stir-fry"
+    ],
+    "portion_guidance": "Use a plate method to balance carbohydrates, proteins, and vegetables.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels between 4-7 mmol/L.",
+    "testing_frequency": "Test blood glucose levels at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia.",
+    "citation_ids": []
+  },
+  "screening_tracker": [
+    {
+      "domain": "Retinal Screening",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Foot Examination",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    },
+    {
+      "domain": "Renal Function",
+      "last_date": null,
+      "result": null,
+      "next_due": "2024-01-01",
+      "status": "Due"
+    }
+  ],
+  "patient_goals": [
+    "Achieve HbA1c < 7.0% within the next 3 months.",
+    "Reduce BMI to < 25.0 within the next 6 months.",
+    "Lower LDL cholesterol to < 2.0 within the next 3 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to improve glycemic control.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, weight, and lipid levels."
+    }
+  ],
+  "emr_note": "Patient is a 43-year-old male with T1DM, currently with HbA1c of 7.5%. Recommended lifestyle modifications and consider insulin therapy for better glycemic control.",
+  "citations": []
+}

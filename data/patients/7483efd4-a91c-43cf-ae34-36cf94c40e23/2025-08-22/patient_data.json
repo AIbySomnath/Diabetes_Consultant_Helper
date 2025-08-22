@@ -1,0 +1,47 @@
+{
+  "uuid": "7483efd4-a91c-43cf-ae34-36cf94c40e23",
+  "name": "sanket ",
+  "dob": "1980-01-01",
+  "sex": "Male",
+  "diabetes_type": "T1DM",
+  "diagnosis_date": "2022",
+  "ethnicity": "UK",
+  "language": null,
+  "height_cm": 175.0,
+  "weight_kg": 80.0,
+  "waist_cm": 85.0,
+  "bp_sys": 120.0,
+  "bp_dia": 80.0,
+  "heart_rate": 72.0,
+  "devices": [],
+  "hypos_90d": 2,
+  "severe_hypos_90d": 2,
+  "dka_12m": 0,
+  "meds": [],
+  "allergies": null,
+  "comorbidities": [],
+  "lifestyle": {
+    "alcohol_units": 2,
+    "smoking": "Former",
+    "sleep_hours": 9,
+    "activity_level": "Sedentary",
+    "diet_pattern": "Standard"
+  },
+  "screenings": {},
+  "labs": {
+    "hba1c_pct": 8.0,
+    "fpg_mmol": 5.8,
+    "ppg2h_mmol": 8.4,
+    "egfr": 90,
+    "creatinine_umol": 80,
+    "acr_mgmmol": 2.2,
+    "lipids": {
+      "tc": 5.3,
+      "ldl": 2.9,
+      "hdl": 1.7,
+      "tg": 1.8
+    }
+  },
+  "goals": null,
+  "notes": null
+}

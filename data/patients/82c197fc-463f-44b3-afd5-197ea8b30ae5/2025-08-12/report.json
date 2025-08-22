@@ -1,0 +1,160 @@
+{
+  "executive_summary": "Somanth is a 43-year-old male with Type 1 Diabetes Mellitus (T1DM) presenting with an HbA1c of 8.1%, indicating suboptimal glycemic control. Key priorities include improving glycemic control, managing lipid levels, and addressing lifestyle factors to reduce the risk of complications.",
+  "snapshot": {
+    "hba1c_status": "Amber",
+    "bp_status": "Green",
+    "bmi_status": "Green",
+    "risk_level": "Moderate",
+    "priority_actions": [
+      "Improve HbA1c",
+      "Monitor lipid levels",
+      "Enhance lifestyle modifications"
+    ]
+  },
+  "clinical_context": {
+    "current_therapy": "None reported",
+    "devices": [],
+    "complications": [],
+    "recent_events": {
+      "hypos_90d": 1,
+      "severe_hypos_90d": 1,
+      "dka_12m": 2
+    }
+  },
+  "labs_table": [
+    {
+      "test": "HbA1c",
+      "value": 8.1,
+      "target": 7.0,
+      "status": "Amber",
+      "comment": "Above target, indicating poor glycemic control."
+    },
+    {
+      "test": "FPG",
+      "value": 5.7,
+      "target": null,
+      "status": "Normal",
+      "comment": "Fasting plasma glucose is within normal range."
+    },
+    {
+      "test": "PPG 2h",
+      "value": 8.3,
+      "target": null,
+      "status": "High",
+      "comment": "Postprandial glucose is elevated."
+    },
+    {
+      "test": "eGFR",
+      "value": 93,
+      "target": 60,
+      "status": "Normal",
+      "comment": "Kidney function is normal."
+    },
+    {
+      "test": "Creatinine",
+      "value": 83,
+      "target": null,
+      "status": "Normal",
+      "comment": "Creatinine level is within normal limits."
+    },
+    {
+      "test": "ACR",
+      "value": 2.4,
+      "target": 3.0,
+      "status": "Normal",
+      "comment": "Albumin-to-creatinine ratio is normal."
+    },
+    {
+      "test": "Total Cholesterol",
+      "value": 5.4,
+      "target": null,
+      "status": "High",
+      "comment": "Total cholesterol is above optimal levels."
+    },
+    {
+      "test": "LDL",
+      "value": 3.1,
+      "target": 2.0,
+      "status": "High",
+      "comment": "LDL cholesterol is above target."
+    },
+    {
+      "test": "HDL",
+      "value": 1.2,
+      "target": null,
+      "status": "Normal",
+      "comment": "HDL cholesterol is within normal range."
+    },
+    {
+      "test": "Triglycerides",
+      "value": 2.2,
+      "target": null,
+      "status": "High",
+      "comment": "Triglycerides are elevated."
+    }
+  ],
+  "interpretation": [
+    {
+      "problem": "Poor glycemic control (HbA1c 8.1%)",
+      "assessment": "Current HbA1c is above the target for T1DM, indicating a need for improved diabetes management.",
+      "plan": "Implement a structured diabetes management plan including medication, lifestyle changes, and regular monitoring.",
+      "citation_ids": []
+    },
+    {
+      "problem": "Elevated LDL and total cholesterol",
+      "assessment": "Lipid levels indicate a high cardiovascular risk.",
+      "plan": "Consider statin therapy and dietary modifications to improve lipid profile.",
+      "citation_ids": []
+    }
+  ],
+  "lifestyle_plan": [
+    {
+      "text": "Increase physical activity to at least 150 minutes of moderate exercise per week.",
+      "citation_ids": []
+    },
+    {
+      "text": "Aim for 7-9 hours of sleep per night to improve overall health.",
+      "citation_ids": []
+    }
+  ],
+  "diet_plan": {
+    "principles": "Focus on a balanced diet rich in whole foods, low in processed sugars and saturated fats.",
+    "sample_meals": [
+      "Grilled chicken salad with mixed greens and vinaigrette",
+      "Quinoa with roasted vegetables and a lean protein source",
+      "Oatmeal topped with berries and nuts"
+    ],
+    "portion_guidance": "Use a plate method to balance carbohydrates, proteins, and vegetables.",
+    "citation_ids": []
+  },
+  "monitoring_plan": {
+    "glucose_targets": "Aim for pre-meal glucose levels of 4-7 mmol/L and post-meal levels of <8.5 mmol/L.",
+    "testing_frequency": "Test blood glucose at least 4 times a day.",
+    "safety_checks": "Regularly check for signs of hypoglycemia and adjust insulin as necessary.",
+    "citation_ids": []
+  },
+  "screening_tracker": [],
+  "patient_goals": [
+    "Achieve an HbA1c of <7.0% within 6 months.",
+    "Reduce LDL cholesterol to <2.0 mmol/L within 6 months.",
+    "Increase physical activity to 150 minutes per week within 3 months."
+  ],
+  "medication_plan": [
+    {
+      "text": "Consider starting insulin therapy to better manage blood glucose levels.",
+      "citation_ids": []
+    },
+    {
+      "text": "Discuss the initiation of statin therapy for lipid management.",
+      "citation_ids": []
+    }
+  ],
+  "follow_up": [
+    {
+      "when": "In 3 months",
+      "actions": "Reassess HbA1c, lipid levels, and overall diabetes management."
+    }
+  ],
+  "emr_note": "Patient Somanth, 43, T1DM, presents with HbA1c 8.1%, elevated LDL and total cholesterol. Recommendations include lifestyle modifications, potential insulin therapy, and statin consideration.",
+  "citations": []
+}

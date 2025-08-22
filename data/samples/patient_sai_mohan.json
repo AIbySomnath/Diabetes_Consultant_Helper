@@ -1,0 +1,66 @@
+{
+  "uuid": "sai-mohan-sample-001",
+  "name": "Sai Mohan",
+  "dob": "1980-05-15",
+  "sex": "Male",
+  "diabetes_type": "T1DM",
+  "diagnosis_date": "2008",
+  "ethnicity": "South Asian",
+  "language": "English",
+  "height_cm": 175.0,
+  "weight_kg": 78.5,
+  "waist_cm": 88.0,
+  "bp_sys": 127.0,
+  "bp_dia": 83.0,
+  "heart_rate": 72.0,
+  "devices": ["Continuous Glucose Monitor", "Insulin Pump"],
+  "hypos_90d": 2,
+  "severe_hypos_90d": 0,
+  "dka_12m": 0,
+  "meds": [
+    {
+      "name": "Insulin aspart",
+      "dose": "1:10 ratio",
+      "schedule": "with meals",
+      "notes": "Rapid-acting insulin for meal coverage"
+    },
+    {
+      "name": "Insulin glargine",
+      "dose": "22 units",
+      "schedule": "once daily at bedtime",
+      "notes": "Long-acting basal insulin"
+    }
+  ],
+  "allergies": "No known drug allergies",
+  "comorbidities": ["Mild retinopathy", "No nephropathy"],
+  "lifestyle": {
+    "alcohol_units": 4,
+    "smoking": "Never",
+    "sleep_hours": 7,
+    "activity_level": "Moderate",
+    "diet_pattern": "Low Carb"
+  },
+  "screenings": {
+    "retina_date": "2024-01-15",
+    "foot_date": "2024-03-10", 
+    "renal_date": "2024-01-20",
+    "flu_date": "2023-10-15",
+    "pneumo_date": "2022-11-01"
+  },
+  "labs": {
+    "hba1c_pct": 8.3,
+    "fpg_mmol": 8.5,
+    "ppg2h_mmol": 12.2,
+    "egfr": 82,
+    "creatinine_umol": 95,
+    "acr_mgmmol": 2.5,
+    "lipids": {
+      "tc": 5.2,
+      "ldl": 3.2,
+      "hdl": 1.1,
+      "tg": 1.8
+    }
+  },
+  "goals": "Improve HbA1c to below 7%, reduce hypoglycemia episodes, maintain healthy weight",
+  "notes": "Motivated patient with good understanding of diabetes management. Recent CGM data shows post-meal spikes. Consider insulin-to-carb ratio adjustment."
+}

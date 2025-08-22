@@ -1,26 +1,26 @@
 # --- Core ---
-streamlit==1.28.0
+streamlit==1.48.0          # >=1.37 adds NumPy 2 support; 1.48.0 is current
 pydantic==2.5.3
 pydantic-settings==2.1.0
 openai==1.0.0
 python-dotenv==1.0.0
 
-# --- Data (Py 3.13 wheels available) ---
+# --- Data ---
 numpy==2.3.2
 pandas==2.3.2
 python-dateutil==2.9.0.post0
 packaging==23.2
 
 # --- Retrieval / NLP ---
-faiss-cpu==1.12.0          # prebuilt cp313 wheels -> avoids the "swig not found" build error
+faiss-cpu==1.12.0          # cp313 wheels available; no swig build
 sentence-transformers==2.7.0
 chromadb==0.4.24
 rank-bm25==0.2.2
 
 # --- PDF & docs ---
-PyMuPDF==1.23.8
+PyMuPDF==1.26.3            # cp313 wheels -> no source build
 reportlab==4.4.3
-lxml>=4.9.3; python_version < "3.12"   # skip on Py 3.12+ to avoid libxml2/libxslt build
+lxml>=4.9.3; python_version < "3.12"   # skip on 3.12+ to avoid libxml2/xslt builds
 
 # --- Visualization ---
 plotly==5.24.1

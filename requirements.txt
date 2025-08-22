@@ -20,7 +20,7 @@ rank-bm25==0.2.2
 # --- PDF & docs ---
 PyMuPDF==1.26.3            # cp313 wheels; avoids source build
 reportlab==4.4.3
-lxml>=4.9.3; python_version < "3.12"   # skipped on Py 3.12+
+lxml>=4.9.3; python_version < "3.12"   # skipped on 3.12+ (no libxml2/xslt build)
 
 # --- Visualization ---
 plotly==5.24.1

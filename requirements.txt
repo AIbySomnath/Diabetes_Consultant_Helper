@@ -1,0 +1,52 @@
+# Core Dependencies
+streamlit>=1.28.0
+pydantic>=2.0.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+
+# Data Modeling & Validation
+pydantic>=2.5.3,<3.0.0
+pydantic-settings>=2.1.0,<3.0.0
+
+# RAG and embeddings
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# Data Processing & Analysis
+pandas>=2.1.0,<3.0.0
+numpy>=1.24.0,<2.0.0
+python-dateutil>=2.8.2,<3.0.0
+
+# Vector Database & Embeddings
+sentence-transformers>=2.2.2,<3.0.0
+faiss-cpu>=1.7.4,<2.0.0  # Use faiss-gpu if CUDA is available
+chromadb>=0.4.20,<0.5.0
+rank-bm25>=0.2.2,<0.3.0
+
+# Report Generation
+reportlab>=4.0.7,<5.0.0
+plotly>=5.18.0,<6.0.0
+Pillow>=10.1.0,<11.0.0
+
+# UI Enhancements
+streamlit-extras>=0.3.6,<0.4.0
+st-pages>=0.4.5,<0.5.0
+streamlit-option-menu>=0.3.6,<0.4.0
+streamlit-tags>=1.2.2,<2.0.0
+
+# Web & Data Scraping
+beautifulsoup4>=4.12.2,<5.0.0
+requests>=2.31.0,<3.0.0
+lxml>=4.9.3,<5.0.0
+
+# Testing & Development
+pytest>=7.4.3,<8.0.0
+pytest-cov>=4.1.0,<5.0.0
+black>=23.11.0,<24.0.0
+isort>=5.12.0,<6.0.0
+mypy>=1.7.0,<2.0.0
+pylint>=3.0.0,<4.0.0
+
+# Documentation
+mkdocs>=1.5.0,<2.0.0
+mkdocs-material>=9.4.0,<10.0.0

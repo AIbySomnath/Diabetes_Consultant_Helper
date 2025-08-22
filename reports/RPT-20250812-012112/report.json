@@ -1,0 +1,243 @@
+{
+  "metadata": {
+    "prepared_by": "Diabetes Specialist Team",
+    "clinic": "NHS Diabetes Centre",
+    "report_date": "2025-08-12",
+    "consultant": "Dr. Smith",
+    "report_id": "RPT-20250812-012112",
+    "version": "1.0"
+  },
+  "patient_info": {
+    "name": "Omkar",
+    "nhs_number": "000-000-0000",
+    "dob": "1980-01-01",
+    "age": 45,
+    "sex": "Male",
+    "diabetes_type": "T1DM",
+    "diagnosis_year": 2025,
+    "duration_years": 0,
+    "ethnicity": null
+  },
+  "vitals_anthropometrics": {
+    "height_cm": 175.0,
+    "weight_kg": 70.0,
+    "bmi": 22.9,
+    "bmi_category": "Normal",
+    "waist_cm": null,
+    "bp_systolic": 120,
+    "bp_diastolic": 80,
+    "heart_rate": null
+  },
+  "recent_events": {
+    "hypos_90d": 0,
+    "severe_hypos_90d": 0,
+    "dka_12m": 0
+  },
+  "lab_values": {
+    "hba1c_percent": 7.0,
+    "hba1c_mmol": 53,
+    "fpg_mmol": null,
+    "ppg_2h_mmol": null,
+    "egfr": null,
+    "creatinine_umol": null,
+    "acr_mgmmol": null,
+    "total_cholesterol": null,
+    "ldl_cholesterol": null,
+    "hdl_cholesterol": null,
+    "triglycerides": null,
+    "test_date": null
+  },
+  "medications": {
+    "insulin_basal": null,
+    "insulin_bolus": null,
+    "insulin_notes": null,
+    "oral_medications": [],
+    "other_medications": [],
+    "medication_notes": null
+  },
+  "lifestyle": {
+    "alcohol_units_week": null,
+    "smoking_status": "Never",
+    "cigarettes_per_day": null,
+    "sleep_hours": null,
+    "activity_level": "Light",
+    "diet_pattern": "Standard"
+  },
+  "goals_notes": {
+    "patient_goals": [],
+    "consultant_observations": null
+  },
+  "summary_table": {
+    "metrics": [
+      {
+        "metric": "BMI",
+        "latest": "22.9 kg/m\u00b2",
+        "target": "18.5-24.9",
+        "status": "\ud83d\udfe2"
+      },
+      {
+        "metric": "eGFR",
+        "latest": "90 mL/min/1.73m\u00b2",
+        "target": "\u226560 (G1-G2)",
+        "status": "\ud83d\udfe2"
+      },
+      {
+        "metric": "ACR",
+        "latest": "2.3 mg/mmol",
+        "target": "<3 mg/mmol",
+        "status": "\ud83d\udfe2"
+      },
+      {
+        "metric": "Hypos (90d)",
+        "latest": "0 mild, 0 severe",
+        "target": "<10 mild/90d",
+        "status": "\ud83d\udfe2"
+      },
+      {
+        "metric": "DKA (12m)",
+        "latest": "0 episodes",
+        "target": "Zero episodes",
+        "status": "\ud83d\udfe2"
+      }
+    ],
+    "consultant_impression": "Excellent diabetes control - maintain current management"
+  },
+  "clinical_context": {
+    "therapy_type": "MDI",
+    "insulin_regimen": null,
+    "icr": null,
+    "isf": null,
+    "device": null,
+    "pre_bolus_habits": null,
+    "safety_items": [
+      "Glucose tablets",
+      "Glucagon kit"
+    ]
+  },
+  "lab_values_table": {
+    "rows": []
+  },
+  "clinical_interpretation": {
+    "problems": [
+      {
+        "problem": "Poor glycaemic control",
+        "assessment": "",
+        "plan": "",
+        "citations": [
+          "NICE-NG17"
+        ]
+      },
+      {
+        "problem": "Elevated LDL cholesterol",
+        "assessment": "",
+        "plan": "",
+        "citations": [
+          "NICE-NG17"
+        ]
+      },
+      {
+        "problem": "Inadequate physical activity",
+        "assessment": "",
+        "plan": "",
+        "citations": [
+          "NICE-NG17"
+        ]
+      }
+    ]
+  },
+  "lifestyle_plan": {
+    "items": []
+  },
+  "diet_plan": {
+    "plate_model": [],
+    "sample_day": [],
+    "citations": [
+      "DiabetesUK"
+    ]
+  },
+  "monitoring_safety": {
+    "bg_targets": {
+      "Pre-meal": "4-7 mmol/L",
+      "Post-meal": "<9 mmol/L"
+    },
+    "structured_testing": [],
+    "hypo_protocol": [
+      "If BG <4 mmol/L: take 15g fast-acting carbs"
+    ],
+    "sick_day_rules": [],
+    "citations": [
+      "NICE-NG17"
+    ]
+  },
+  "complications_screening": {
+    "rows": [
+      {
+        "domain": "Retinopathy",
+        "last_done": "Annual",
+        "result_grade": "R0M0",
+        "next_due": "12 months",
+        "status": "\ud83d\udfe2"
+      }
+    ]
+  },
+  "patient_centred_goals": {
+    "goals": [
+      {
+        "goal": "Achieve an HbA1c of less than 7.5% within the next 6 months.",
+        "timeframe": "3 months",
+        "smart_criteria": ""
+      },
+      {
+        "goal": "Reduce LDL cholesterol to below 2.0 mmol/L within 12 months.",
+        "timeframe": "3 months",
+        "smart_criteria": ""
+      }
+    ]
+  },
+  "medication_optimisation": {
+    "recommendations": [
+      "Review current insulin regimen and consider adjustments to improve glycaemic control.",
+      "Consider starting a statin if lifestyle modifications do not improve LDL levels."
+    ],
+    "citations": [
+      "NICE-NG17"
+    ]
+  },
+  "follow_up": {
+    "six_weeks": [
+      "Review"
+    ],
+    "three_months": [
+      "HbA1c"
+    ],
+    "annual": [
+      "Annual review"
+    ]
+  },
+  "emr_note": {
+    "problem": "Diabetes",
+    "assessment": "Review",
+    "plan": "Optimise",
+    "monitoring": "Regular",
+    "follow_ups": "3 months",
+    "safety": "Intact"
+  },
+  "citations": [
+    {
+      "tag": "NICE-NG17",
+      "section": null,
+      "description": "Type 1 diabetes in adults"
+    },
+    {
+      "tag": "NICE-NG28",
+      "section": null,
+      "description": "Type 2 diabetes in adults"
+    },
+    {
+      "tag": "DiabetesUK",
+      "section": null,
+      "description": "Diabetes UK dietary advice"
+    }
+  ],
+  "pdf_prefilled_fields": []
+}

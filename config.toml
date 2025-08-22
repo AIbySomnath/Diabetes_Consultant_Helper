@@ -1,0 +1,22 @@
+[theme]
+base="light"
+primaryColor="#005EB8"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F0F2F6"
+textColor="#212121"
+font="sans serif"
+
+[server]
+port = 8501
+maxUploadSize = 50
+maxMessageSize = 50
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+serverAddress = "localhost"
+serverPort = 8501
+
+[logger]
+level = "info"
+messageFormat = "%(asctime)s %(levelname) -10s %(message)s"

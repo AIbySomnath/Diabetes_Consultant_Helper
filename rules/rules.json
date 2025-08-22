@@ -1,0 +1,26 @@
+{
+  "hba1c_t1dm_target_pct": 7.0,
+  "bp_target_sys": 135,
+  "bp_target_dia": 85,
+  "bmi_overweight": 25.0,
+  "ldl_high_risk_target": 2.0,
+  "acr_albuminuria": 3.0,
+  "egfr_ok": 60,
+  "traffic": {
+    "hbA1c": {"green_max": 7.0, "amber_max": 8.0},
+    "bp_sys": {"green_max": 135, "amber_max": 140},
+    "bmi": {"green_max": 25.0, "amber_max": 30.0},
+    "ldl": {"green_max": 2.0, "amber_max": 3.0}
+  },
+  "units": {
+    "glucose_conversion": 18.018,
+    "hba1c_conversion": 10.93
+  },
+  "screening_intervals": {
+    "retina": 12,
+    "foot": 12,
+    "renal": 12,
+    "flu": 12,
+    "pneumo": 60
+  }
+}

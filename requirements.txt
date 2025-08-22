@@ -1,5 +1,5 @@
 # --- Core ---
-streamlit==1.48.0          # >=1.37 adds NumPy 2 support; 1.48.0 is current
+streamlit==1.48.0          # >=1.37 supports NumPy 2
 pydantic==2.5.3
 pydantic-settings==2.1.0
 openai==1.0.0
@@ -12,15 +12,15 @@ python-dateutil==2.9.0.post0
 packaging==23.2
 
 # --- Retrieval / NLP ---
-faiss-cpu==1.12.0          # cp313 wheels available; no swig build
+faiss-cpu==1.12.0          # cp313 wheels; no swig build
 sentence-transformers==2.7.0
 chromadb==0.4.24
 rank-bm25==0.2.2
 
 # --- PDF & docs ---
-PyMuPDF==1.26.3            # cp313 wheels -> no source build
+PyMuPDF==1.26.3            # cp313 wheels; avoids source build
 reportlab==4.4.3
-lxml>=4.9.3; python_version < "3.12"   # skip on 3.12+ to avoid libxml2/xslt builds
+lxml>=4.9.3; python_version < "3.12"   # skipped on Py 3.12+
 
 # --- Visualization ---
 plotly==5.24.1

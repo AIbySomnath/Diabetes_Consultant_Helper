@@ -1,22 +1,38 @@
-[theme]
-base="light"
-primaryColor="#005EB8"
-backgroundColor="#FFFFFF"
-secondaryBackgroundColor="#F0F2F6"
-textColor="#212121"
-font="sans serif"
+[global]
+# Disable telemetry
+dataFrameSerialization = "legacy"
 
 [server]
 port = 8501
-maxUploadSize = 50
-maxMessageSize = 50
 enableCORS = false
+enableWebsocketCompression = true
 enableXsrfProtection = true
+maxUploadSize = 200  # MB
+maxMessageSize = 200  # MB
 
 [browser]
-serverAddress = "localhost"
-serverPort = 8501
+serverAddress = ""
 
-[logger]
-level = "info"
-messageFormat = "%(asctime)s %(levelname) -10s %(message)s"
+[runner]
+# Optimize memory usage
+magicEnabled = false
+
+[theme]
+base = "light"
+primaryColor = "#005EB8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#212121"
+font = "sans serif"
+
+[client]
+# Disable unnecessary features
+showErrorDetails = false
+
+enableXsrfProtection = true
+
+[runner]
+el = false
+
+[client]
+showErrorDetails = true
